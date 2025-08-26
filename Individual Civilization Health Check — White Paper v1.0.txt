@@ -1,0 +1,497 @@
+Individual Civilization Health Check Model — White Paper v1.0
+=================================================================
+(A structural framework to evaluate the health of individuals as the
+ fundamental “cells” of civilization)
+
+Author: Kong Weicheng (孔维程)
+Affiliation: Independent Researcher, Founder of Civilization Immune Theory
+Date: 2025
+License: CC0 1.0 (Public Domain Dedication)
+
+Mirrors (placeholders):
+- GitHub: https://github.com/your-repo
+- Zenodo: https://zenodo.org/record/xxxx
+- Archive.org: https://archive.org/details/xxxx
+
+=================================================================
+TABLE OF CONTENTS
+-----------------------------------------------------------------
+Executive Summary
+Abstract
+Preface — Why an “Individual Civilization Health Check”?
+Chapter 1 — Architecture & Foundational Logic
+Chapter 2 — FFI: Functional Fabric Index (full rubric & scoring)
+Chapter 3 — CSI: Cancerous Structure Index (full rubric & scoring)
+Chapter 4 — CHS: Civilization Health Score (net structural health)
+Chapter 5 — EOI: Effectiveness of Influence (amplification model)
+Chapter 6 — RUI: Reverse Unification Index (spread virulence)
+Chapter 7 — HCCI: Human Civilization Contribution Index (final impact)
+Chapter 8 — Score Levels & Structural Classifications
+Chapter 9 — Practical Applications (governance, AI, media, civil society)
+Chapter 10 — Future Outlook (structural recognition & immune era)
+Appendices
+  A. FFI Rubric (8 dimensions × subindicators, 1–10 scale)
+  B. CSI Rubric (8 dimensions × subindicators, 1–10 scale)
+  C. Scoring Worksheets (FFI/CSI/CHS/EOI/RUI/HCCI)
+  D. EOI Parameter Reference (R, C, S, F, I, L, T)
+  E. Worked Examples (personas & sensitivity analysis)
+  F. Implementation Notes (bias, safeguards, audits)
+  G. Glossary
+  H. Version History & License
+
+=================================================================
+EXECUTIVE SUMMARY
+-----------------------------------------------------------------
+Civilization is built not by states but by individuals. Each person functions
+as a structural “cell” that can be functional (healthy), silent (inactive),
+or cancerous (replicating harmful patterns). This white paper presents the
+Individual Civilization Health Check Model (ICHC), a quantitative framework
+for diagnosing the structural health of individuals and their net impact on
+humanity.
+
+Six core indices:
+• FFI (Functional Fabric Index): constructive capacity.
+• CSI (Cancerous Structure Index): structural toxicity.
+• CHS (Civilization Health Score) = FFI − CSI.
+• EOI (Effectiveness of Influence): amplification power.
+• RUI (Reverse Unification Index): virulence of harmful spread.
+• HCCI (Human Civilization Contribution Index) = CHS × RUI.
+
+The model provides rubrics, formulas, and workflows to identify functional
+contributors, detect high-risk spreaders, and guide resource allocation,
+alignment for AI systems, and civil society immune design. It avoids moral
+labeling and focuses strictly on structural patterns, diffusion mechanisms,
+and measurable outcomes.
+
+=================================================================
+ABSTRACT
+-----------------------------------------------------------------
+The Individual Civilization Health Check Model (ICHC) evaluates the health of
+individuals as structural cells of civilization. It integrates six indices—FFI,
+CSI, CHS, EOI, RUI, and HCCI—to quantify net impact on civilizational health.
+FFI scores constructive capacity; CSI captures harmful replications; CHS is
+the net balance; EOI measures amplification; RUI converts harmful capacity
+into virulent spread; HCCI fuses net health with virulence to yield final
+lifetime impact. The framework supplies rubrics, measurement protocols, and
+safeguards to ensure transparent, auditable use in governance, AI alignment,
+and civil society.
+
+Keywords: Civilization, Individual, Immunity, Functional Fabric, Cancerous
+Structure, CHS, EOI, RUI, HCCI, Kong Weicheng.
+
+=================================================================
+PREFACE — WHY AN “INDIVIDUAL CIVILIZATION HEALTH CHECK”?
+-----------------------------------------------------------------
+• Civilization is not an abstraction of borders or flags; it is the sum of
+  billions of individual structures. Healthy individuals create resilient
+  systems; unhealthy ones corrode them.
+• We possess diagnostics for physiology but lack diagnostics for structural
+  behavior. Yet structural “tumors” (hierarchy obsession, coercive language,
+  emotional manipulation) are early warning signs of authoritarian drift,
+  mass polarization, and institutional collapse.
+• This model equips societies and AI systems to detect and counter structural
+  hazards early—before metastasis—while elevating healthy structural patterns.
+
+Core questions the model answers:
+1) Is this person structurally healthy, silent, or cancerous?
+2) What is their amplification power (EOI)?
+3) How virulently would harmful patterns spread (RUI)?
+4) What is their net lifetime impact on humanity (HCCI)?
+
+=================================================================
+CHAPTER 1 — ARCHITECTURE & FOUNDATIONAL LOGIC
+-----------------------------------------------------------------
+1. Structural Mechanics, Not Morality
+   The ICHC model assesses structural patterns and diffusion, independent of
+   identity, belief, or status. A person may be “moral” yet structurally
+   harmful via coercive memes; or “unknown” yet structurally vital.
+
+2. Six Indices & Balance Sheet View
+   • FFI = assets (constructive capacity)
+   • CSI = liabilities (harmful replication)
+   • CHS = net equity (FFI − CSI)
+   • EOI = amplifier (network position & leverage)
+   • RUI = virulence (nonlinear spread of harm)
+   • HCCI = final impact (CHS × RUI)
+
+3. Measurement Principles
+   • Parsimony: use concise rubrics with operational definitions.
+   • Transparency: document sources, assumptions, evidence.
+   • Calibration: tune thresholds with domain data and audits.
+   • Non-punitiveness: diagnostic purpose; incorporate appeals and redress.
+
+=================================================================
+CHAPTER 2 — FFI: FUNCTIONAL FABRIC INDEX
+-----------------------------------------------------------------
+Definition
+FFI measures how an individual strengthens civilizational structure: freedom,
+dignity, cooperation, truth, and resilience.
+
+Scoring
+Eight primary dimensions, each 1–10. Total FFI = average of eight.
+
+D1. Structural Cognition
+   Subindicators (score each 1–10):
+   - Power recognition & institutional understanding
+   - Language-structure awareness (detecting coercion in speech)
+   - Systemic thinking (feedback loops, incentives, externalities)
+   Examples: 1 = naïve to power dynamics; 10 = identifies covert coercion,
+   proposes structural remedies.
+
+D2. Diversity Acceptance
+   - Identity inclusion, cultural understanding, non-exclusiveness
+   - Building non-homogeneous collaboration
+   - Anti-stereotype behavior
+   Ex: 1 = exclusionary, purity-seeking; 10 = actively integrates plurality.
+
+D3. Emotional Regulation & Rational Expression
+   - Calm communication; de-escalation; boundary awareness
+   - Uses emotion for empathy, not control
+   - Evidence-based discourse under pressure
+   Ex: 1 = shaming, rage control; 10 = firm, respectful, reason-led.
+
+D4. Collaboration & Public Participation
+   - Trust-building; commons contribution; volunteerism
+   - Initiating cooperative projects; transparent decision habits
+   - Protecting public goods over factional gain
+   Ex: 1 = freeloading/factionalism; 10 = sustained commons work.
+
+D5. Autonomy & Anti-Authoritarian Dependence
+   - Critical thinking; independent judgment
+   - Resisting conformity pressure; whistleblowing courage
+   - Avoids cults of personality or fatalism
+   Ex: 1 = obedience-seeking; 10 = principled autonomy.
+
+D6. Aesthetic & Cultural Creativity
+   - Original expression; vocabulary innovation; culture-making
+   - Cross-pollination of disciplines; open licensing ethos
+   Ex: 1 = derivative propaganda; 10 = emancipatory cultural output.
+
+D7. Structural Protection Behavior
+   - Defends rule-of-law, due process, and open information
+   - Protects the vulnerable; counters disinformation
+   - Intervenes at critical moments to uphold structure
+   Ex: 1 = bystander to harm; 10 = documented structural defense.
+
+D8. Growth & Self-Correction
+   - Learnability; feedback seeking; course correction
+   - Admits error; updates models; mentors others
+   Ex: 1 = brittle certainty; 10 = antifragile learning.
+
+Interpretation (Total FFI)
+   • 8.0–10.0: High functional contributor
+   • 5.0–7.9 : Moderately functional/neutral-positive
+   • ≤ 4.9   : Dormant/regressive; risk of silent drift
+
+=================================================================
+CHAPTER 3 — CSI: CANCEROUS STRUCTURE INDEX
+-----------------------------------------------------------------
+Definition
+CSI measures structural harm potential—patterns that replicate coercion and
+fragility in others and systems.
+
+Scoring
+Eight primary dimensions, each 1–10. Total CSI = average of eight.
+
+C1. Structural Absolutism
+   - Naturalizing hierarchy; sacred orders; unquestionable doctrines
+   - “Only one truth/authority” frame
+
+C2. Power Worship
+   - Deference to coercive power; status obsession; sycophancy
+   - Admiration of domination over legitimacy
+
+C3. Emotional Manipulation
+   - Fear, shame, guilt as tools; gaslighting; moral coercion
+   - Conditional “love” for obedience
+
+C4. Hierarchical Language Use
+   - Dominance–submission verbs; “must/obedience/know your place”
+   - Framing disagreement as disloyalty
+
+C5. Normative Moralism
+   - Rigid virtue policing; punishment-first stance
+   - Erases context/complexity; suppresses dissent
+
+C6. Rejection of Pluralism
+   - Xenophobia/sectarianism; demonization of difference
+   - “Purity” narratives; informational quarantine
+
+C7. Zero-Sum Social Logic
+   - Win–lose fixation; hostile attribution bias
+   - Anti-cooperation; “ends justify means”
+
+C8. Structural Replication
+   - Recreating toxic control across domains (family, school, work, media)
+   - Colonizes new contexts with old oppression
+
+Interpretation (Total CSI)
+   • 8.0–10.0: Highly carcinogenic (systemic disruptor)
+   • 5.0–7.9 : Latent replicator (expansion risk)
+   • 3.0–4.9 : Dormant/neutral carrier
+   • < 3.0   : Low-risk; reversible with growth
+
+Typical Hazard Contexts & Signals
+   - “Obedience = love,” loyalty tests, manufactured enemies, sacredized leaders
+   - Corporate “family” rhetoric masking exploitation
+   - Shaming speech online; “if you don’t love X, leave”
+
+=================================================================
+CHAPTER 4 — CHS: CIVILIZATION HEALTH SCORE
+-----------------------------------------------------------------
+Definition
+CHS is the net structural health of an individual.
+
+Formula
+CHS = FFI − CSI
+
+Interpretable Bands (derived from normalized 1–10 inputs)
+   +7 to +9 : Deep structural health (resilient, role-model)
+   +4 to +6 : Evident health (strong cooperative contributor)
+   +1 to +3 : Basic health (locally positive; growth room)
+    0       : Equilibrium (observe context)
+   −1 to −3 : Mild cancer drift (early warning)
+   −4 to −6 : Mid-level drift (intervene)
+   −7 to −9 : Deep structural cancer (systemic damage)
+
+Use
+   - Selection: leadership/mentorship bias toward high CHS
+   - Support: coaching for mid-tier; protection from high-risk spillover
+   - Containment: restrict amplification of negative CHS where due process allows
+
+=================================================================
+CHAPTER 5 — EOI: EFFECTIVENESS OF INFLUENCE
+-----------------------------------------------------------------
+Definition
+EOI quantifies amplification—how far and how deeply a person’s structure
+propagates through networks and institutions.
+
+Nonlinear Amplifier Model
+   EOI = (R × C × S × F × I × L) × T^1.3
+
+Parameters (guidelines; calibrate with data)
+   • R (Reach): audience magnitude (10^1 … 10^9)
+   • C (Cognitive Penetration): depth of mindshare (0.2 … 0.9)
+   • S (Structural Penetration): institutional access (0.1 … 1.0)
+   • F (Frequency × Duration): cadence × longevity (1 … 500)
+   • I (Information Amplification): virality/memetic weight (1 … 1000)
+   • L (Leverage Position): proximity to decision nodes (1 … 1000)
+   • T (Network Amplification): centrality/topology (0.8 … 3.0), exponent 1.3
+
+Examples (orders of magnitude; illustrative)
+   • Leader with mass platform: EOI ~ 10^15–10^18
+   • Public intellectual (regional): EOI ~ 10^7–10^10
+   • Local organizer: EOI ~ 10^3–10^5
+   • Private citizen (offline): EOI ~ 10^1–10^3
+
+=================================================================
+CHAPTER 6 — RUI: REVERSE UNIFICATION INDEX
+-----------------------------------------------------------------
+Definition
+RUI measures how intensely harmful structure spreads outward, given CSI and EOI.
+
+Core Variable
+   B = CSI × EOI
+
+Nonlinear Virulence Function
+   RUI = B × (1 + B^0.1)
+
+Rationale
+   Small increases in B can yield explosive spread due to network effects.
+   Nonlinearity captures memetic epidemics.
+
+Risk Levels (illustrative; domain calibration needed)
+   • Low:        RUI < 10^4
+   • Moderate:   10^4 ≤ RUI < 10^8
+   • High:       10^8 ≤ RUI < 10^12
+   • Extreme:    RUI ≥ 10^12
+
+Always interpret RUI with CHS:
+   High RUI with negative CHS = high-priority threat.
+   High RUI with positive CHS = major civilizational asset.
+
+=================================================================
+CHAPTER 7 — HCCI: HUMAN CIVILIZATION CONTRIBUTION INDEX
+-----------------------------------------------------------------
+Definition
+Final net impact of an individual on humanity.
+
+Two Equivalent Forms
+   1) HCCI = CHS × RUI
+   2) HCCI = (FFI − CSI) × [ (CSI × EOI) × (1 + (CSI × EOI)^0.1) ]
+
+Bands (tunable)
+   • Civilization Pillar:        HCCI ≥ +1000
+   • Neutral/Bystander:         −10 < HCCI < +10
+   • High-Risk Spreader:        −1000 < HCCI ≤ −100
+   • Civilization Core Cancer:  HCCI ≤ −1000
+
+=================================================================
+CHAPTER 8 — SCORE LEVELS & STRUCTURAL CLASSIFICATIONS
+-----------------------------------------------------------------
+1) Functional Cells
+   - High FFI, low CSI → positive CHS; EOI aligned to transparency/cooperation.
+   - HCCI typically positive even at modest EOI.
+   - Backbone of resilient systems.
+
+2) Silent Cells
+   - Low activity; minimal FFI/CSI; EOI ≈ 0.
+   - Non-toxic but structurally inactive; susceptible to drift in toxic climates.
+
+3) Cancerous Individuals
+   - High CSI; frequently high EOI via power/platforms.
+   - Normalize fear/shame/hierarchy; colonize new contexts with control memes.
+
+4) Civilizational Guardians (High CHS × High EOI)
+   - Proactively reduce hierarchy, defend dignity, and scale immune logic.
+
+5) High-Risk Spreaders (Negative CHS × High EOI)
+   - Large-scale diffusion of structural harm; priority for containment under
+     transparent, lawful processes.
+
+Transitional States
+   - Individuals can move categories with education, accountability, incentives.
+   - Provide off-ramps for recovery; avoid fatalism.
+
+=================================================================
+CHAPTER 9 — PRACTICAL APPLICATIONS
+-----------------------------------------------------------------
+1) Governance & Public Service
+   - Use CHS/EOI/HCCI for selection and role fit (with due process).
+   - Limit amplification (EOI) of recurrent negative-HCCI actors via transparent
+     rules; support rehabilitation pathways.
+
+2) AI Alignment & Safety
+   - Penalize high-CSI/high-EOI patterns in training corpora.
+   - Add CHS/RUI/HCCI checks into model outputs and agent plans.
+   - Embed structural immunity principles at policy level.
+
+3) Media & Platform Governance
+   - Adjust recommendation weights away from structural pollutants.
+   - Elevate high-CHS content; diversify sources to reduce echo chambers.
+
+4) Education & Civil Society
+   - Teach structural literacy (power, language, emotion, institutions).
+   - Build decentralized immune networks for early detection and response.
+
+5) Organizational Use
+   - Leadership pipelines favor high CHS; ethics reviews for high EOI roles.
+   - Incident postmortems include CSI source analysis and repairs.
+
+Safeguards
+   - Transparency, appeal rights, independent audits, proportional responses.
+
+=================================================================
+CHAPTER 10 — FUTURE OUTLOOK
+-----------------------------------------------------------------
+• Structural recognition will replace ideological policing.
+• Everyone will know their structural identity code (CHS, EOI, RUI, HCCI).
+• Politics will shift from identity fights to structural health design.
+• Survival hinges on millions of structurally awakened individuals, not
+  singular heroes.
+
+=================================================================
+APPENDICES
+-----------------------------------------------------------------
+APPENDIX A — FFI RUBRIC (8 × subindicators, 1–10 scale)
+D1 Structural Cognition:
+   1 = ignores power/institutions; 10 = maps hidden incentives, proposes reforms.
+D2 Diversity Acceptance:
+   1 = purity/exclusion; 10 = plural integration.
+D3 Emotional Regulation & Rational Expression:
+   1 = coercive emotionality; 10 = calm/factual, boundaries respected.
+D4 Collaboration & Public Participation:
+   1 = factional freeloading; 10 = sustained commons work, transparent process.
+D5 Autonomy & Anti-Authoritarian Dependence:
+   1 = obedience-seeking; 10 = principled independence, whistleblowing capacity.
+D6 Aesthetic & Cultural Creativity:
+   1 = derivative propaganda; 10 = emancipatory, open culture contributions.
+D7 Structural Protection Behavior:
+   1 = bystander; 10 = documented defense of due process & vulnerable groups.
+D8 Growth & Self-Correction:
+   1 = brittle certainty; 10 = antifragile learning and mentoring.
+
+APPENDIX B — CSI RUBRIC (8 × subindicators, 1–10 scale)
+C1 Structural Absolutism:
+   1 = contingent thinking; 10 = sacredized hierarchy.
+C2 Power Worship:
+   1 = legitimacy-first; 10 = domination-first.
+C3 Emotional Manipulation:
+   1 = consent-based empathy; 10 = fear/shame/guilt control.
+C4 Hierarchical Language:
+   1 = equality framing; 10 = obedience framing.
+C5 Normative Moralism:
+   1 = context-sensitive; 10 = rigid dogma/punishment-first.
+C6 Rejection of Pluralism:
+   1 = embraces diversity; 10 = xenophobic/sectarian.
+C7 Zero-Sum Social Logic:
+   1 = win–win seeking; 10 = ends-justify-means hostility.
+C8 Structural Replication:
+   1 = repairs oppression; 10 = recreates it across contexts.
+
+APPENDIX C — SCORING WORKSHEETS
+(Plain text templates)
+
+[FFI Worksheet]
+D1: __  D2: __  D3: __  D4: __  D5: __  D6: __  D7: __  D8: __
+FFI = (D1 + D2 + D3 + D4 + D5 + D6 + D7 + D8) / 8
+
+[CSI Worksheet]
+C1: __  C2: __  C3: __  C4: __  C5: __  C6: __  C7: __  C8: __
+CSI = (C1 + C2 + C3 + C4 + C5 + C6 + C7 + C8) / 8
+
+[CHS]
+CHS = FFI − CSI
+
+[EOI Worksheet]
+R: __   C: __   S: __   F: __   I: __   L: __   T: __
+EOI = (R × C × S × F × I × L) × T^1.3
+
+[RUI]
+B = CSI × EOI
+RUI = B × (1 + B^0.1)
+
+[HCCI]
+HCCI = CHS × RUI
+
+APPENDIX D — EOI PARAMETER REFERENCE
+R (Reach): direct+indirect audience; include shares and citations.
+C (Cognitive Penetration): conversion/retention; survey evidence.
+S (Structural Penetration): role-based access; policy/ops levers.
+F (Frequency × Duration): events per period × months active.
+I (Information Amplification): repost/quote ratio; meme longevity.
+L (Leverage): agenda-setting proximity; gatekeeping positions.
+T (Network Amplification): graph centrality; adjust exponent after validation.
+
+APPENDIX E — WORKED EXAMPLES (illustrative)
+Persona A — Local Organizer
+  FFI=7.2, CSI=2.8 → CHS=4.4
+  EOI≈2,000; CSI×EOI≈5,600; RUI≈5,600×(1+5600^0.1)≈5,600×(1+2.02)≈16,912
+  HCCI≈4.4×16,912≈74,412  → Positive regional contributor.
+
+Persona B — Viral Demagogue
+  FFI=3.0, CSI=8.5 → CHS=−5.5
+  EOI≈2×10^10; B=8.5×2e10≈1.7e11; RUI≈1.7e11×(1+(1.7e11)^0.1)≈extreme
+  HCCI negative extreme  → High-priority containment (due process).
+
+Persona C — Quiet Scientist
+  FFI=8.8, CSI=1.1 → CHS=7.7
+  EOI≈5×10^5; B≈5.5×10^5; RUI≈B×(1+B^0.1)≈moderate-high
+  HCCI positive → Scale impact ethically.
+
+APPENDIX F — IMPLEMENTATION NOTES
+• Bias & Fairness: publish rubrics; allow appeal; ensure independent audits.
+• Privacy: minimize data; consent where possible; avoid doxxing.
+• Non-Punitiveness: diagnostic intent; rehabilitation pathways.
+• Calibration: re-estimate thresholds with longitudinal data.
+
+APPENDIX G — GLOSSARY
+Functional Cell, Cancerous Structure, Reverse Unification, Structural Immunity,
+Meme, Amplification, Virulence, Nonlinearity, Antifragility.
+
+APPENDIX H — VERSION HISTORY & LICENSE
+v1.0 (2025-08): First public draft, cleaned from OCR; expanded rubrics, formulas,
+templates, safeguards. Licensed under CC0 1.0 (Public Domain Dedication).
+
+=================================================================
+END OF WHITE PAPER v1.0
