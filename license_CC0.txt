@@ -1,0 +1,32 @@
+CC0 1.0 Universal (Public Domain Dedication)
+
+Author / 作者: Wei Cheng Kong (孔维程, WK)
+Year / 年份: 2025
+
+English:
+To the extent possible under law, Wei Cheng Kong has waived all copyright and related rights to this work.
+This work is dedicated to the public domain under the Creative Commons CC0 1.0 Universal license.
+You may copy, modify, distribute, and use the work, even for commercial purposes, without asking permission.
+
+中文：
+在法律允许的范围内，孔维程（Wei Cheng Kong, WK）已放弃对此作品的全部版权及相关权利。
+本作品通过 Creative Commons CC0 1.0 通用协议，贡献至公共领域。
+任何人都可以自由复制、修改、分发和使用本作品，包括商业用途，无需征得作者许可。
+
+---
+
+Permanent Mirrors · 永久镜像:
+1. GitHub Repository & Pages:
+   https://github.com/wk-26/Civilization-Axioms-and-Immune-System-
+   https://wk-26.github.io/Civilization-Axioms-and-Immune-System-/
+
+2. Internet Archive (Archive.org):
+   [to be added after upload]
+
+3. Zenodo (CERN, EU Open Science):
+   [to be added after upload]
+
+---
+
+Reference / 参考:
+https://creativecommons.org/publicdomain/zero/1.0/
