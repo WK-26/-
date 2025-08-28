@@ -70,7 +70,7 @@ III. 应用与扩展 · Applications & Extensions
 - **Internet Archive**:  
   https://archive.org/details/a-new-civilization-for-humanity-cc-0  
 
-- **Zenodo (DOI)**:  
+- **Zenodo (DOI, all versions)**:  
   https://doi.org/10.5281/zenodo.16980277
 
 ⸻
