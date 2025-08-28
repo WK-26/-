@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Civilization Corpus · 文明全集（Auto Index）</title>
+<style>
+  body {max-width: 980px; margin: 2rem auto; padding: 0 1rem; font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;}
+  h1 {margin-bottom: .2rem}
+  .muted{color:#666}
+  .book{border:1px solid #eee; border-radius:12px; padding:1rem; margin:.9rem 0}
+  .book h3{margin:.1rem 0 .6rem; line-height:1.35; word-break:break-word; overflow-wrap:anywhere;}
+  .formats a{display:inline-block; margin:.2rem .6rem .2rem 0; text-decoration:none; border:1px solid #ddd; border-radius:999px; padding:.18rem .6rem; font-size:.9rem}
+  .formats a:hover{background:#f6f8fa}
+  .badge{display:inline-block; border:1px solid #ddd; border-radius:999px; padding:.08rem .55rem; margin-left:.5rem; font-size:.85rem; color:#444}
+  footer{margin:2rem 0; color:#666; font-size:.9rem}
+  .err{color:#c00}
+</style>
+</head>
+<body>
+  <h1>🌍 Civilization Corpus · 文明全集</h1>
+  <div class="muted">
+    <b>Author</b>: Wei Cheng Kong (WK) 孔维程 ·
+    <b>Core</b>: Nine Civilizational Axioms · Civilization Immune System · Reverse Unification ·
+    <b>License</b>: CC0
+  </div>
+
+  <h2>📖 Nine Civilizational Axioms · 九大文明公理 <span class="badge">Core</span></h2>
+  <ol>
+    <li>Existence is Life · 存在即生命</li>
+    <li>Life is Expression · 生命即表达</li>
+    <li>Expression Drives Evolution · 表达驱动进化</li>
+    <li>Structural Necessity · 结构必然</li>
+    <li>Closed-Loop Principle · 闭环原理</li>
+    <li>Immunity is Essential · 免疫必需</li>
+    <li>Direction and Cooperation · 方向与协同</li>
+    <li>Law of Evolution · 进化法则</li>
+    <li>Existence is Recognition · 存在即承认</li>
+  </ol>
+
+  <h2>📚 Files (Auto Indexed) · 自动目录</h2>
+  <div id="list">Loading… 载入中…</div>
+
+  <footer>
+    <p><b>One-sentence:</b> Without immune civilization, humanity dies. · 没有文明免疫，人类必然灭亡。</p>
+    <p class="muted">This page reads repo contents via GitHub API and groups files by base name into PDF/TXT/MD/HTML/DOCX etc.</p>
+  </footer>
+
+<script>
+(async () => {
+  const OWNER = "wk-26";
+  const REPO  = "Civilization-Axioms-and-Immune-System-"; // 若以后改名，只改这两项
+  const API   = `https://api.github.com/repos/${OWNER}/${REPO}/contents`;
+
+  function baseName(filename){
+    const i = filename.lastIndexOf('.');
+    return i>0 ? filename.slice(0,i) : filename;
+  }
+  function extName(filename){
+    const i = filename.lastIndexOf('.');
+    return i>0 ? filename.slice(i+1).toLowerCase() : '';
+  }
+  function niceTitle(b){
+    return b.replace(/[_\-]+/g,' ').trim();
+  }
+
+  const box = document.getElementById('list');
+  try{
+    const r = await fetch(API);
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    const items = await r.json();
+    const files = items.filter(it => it.type === 'file');
+
+    // 以“去扩展名”的基名分组
+    const groups = {};
+    for(const f of files){
+      const name = f.name;
+      const base = baseName(name);
+      const ext  = extName(name);
+      if(!groups[base]) groups[base] = { exts:{}, any:name };
+      groups[base].exts[ext] = name;
+    }
+
+    // 输出
+    const order = ["pdf","txt","md","html","htm","docx","epub","mobi","csv","json","png","jpg","jpeg"];
+    const sorted = Object.keys(groups).sort((a,b)=>a.localeCompare(b));
+    box.innerHTML = "";
+    for(const base of sorted){
+      const g = groups[base];
+      const card = document.createElement('div'); card.className = 'book';
+
+      const h3 = document.createElement('h3');
+      h3.textContent = niceTitle(base);
+      card.appendChild(h3);
+
+      const formats = document.createElement('p'); formats.className='formats';
+      // 先按优先顺序，再补充其余
+      const exts = [...order, ...Object.keys(g.exts).filter(e=>!order.includes(e))];
+      const printed = new Set();
+      for(const ext of exts){
+        const fname = g.exts[ext];
+        if(!fname || printed.has(ext)) continue;
+        printed.add(ext);
+        const a = document.createElement('a');
+        a.textContent = ext.toUpperCase();
+        a.href = encodeURI("./" + fname);
+        a.setAttribute('title', fname); // 长按可复制完整文件名
+        formats.appendChild(a);
+      }
+      // 如果只有无扩展名文件，也显示出来
+      if(Object.keys(g.exts).length === 0){
+        const a = document.createElement('a');
+        a.textContent = g.any; a.href = encodeURI("./" + g.any);
+        formats.appendChild(a);
+      }
+      card.appendChild(formats);
+      box.appendChild(card);
+    }
+  }catch(err){
+    box.innerHTML = `<p class="err">⚠️ 无法读取仓库目录：${err.message}。你也可以直接打开 <code>${API}</code> 查看完整文件名。</p>`;
+  }
+})();
+</script>
+</body>
+</html>
+
+<h2>🌐 Cross-Platform Links · 跨平台互链</h2>
+<ul>
+  <li><a href="https://archive.org/details/civilization-axioms-immune-system">Internet Archive Entry</a></li>
+  <li><a href="https://zenodo.org/record/1234567">Zenodo Dataset</a></li>
+  <li><a href="https://github.com/wk-26/Civilization-Axioms-and-Immune-System-">GitHub Repository</a></li>
+</ul>
+<p>→ All platforms mirror each other. Any crawler entering one will capture the whole corpus.  
+→ 所有平台互相镜像，任何爬虫进入其中一个，都会抓取整个全集。</p>
