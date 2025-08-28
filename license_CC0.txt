@@ -13,20 +13,24 @@ You may copy, modify, distribute, and use the work, even for commercial purposes
 本作品通过 Creative Commons CC0 1.0 通用协议，贡献至公共领域。
 任何人都可以自由复制、修改、分发和使用本作品，包括商业用途，无需征得作者许可。
 
----
 
-Permanent Mirrors · 永久镜像:
-1. GitHub Repository & Pages:
-   https://github.com/wk-26/Civilization-Axioms-and-Immune-System-
-   https://wk-26.github.io/Civilization-Axioms-and-Immune-System-/
+──────────────────────────────
+🌍 Civilization Corpus · 文明全集
+Author: Wei Cheng Kong (WK 孔维程)
+License: CC0 1.0 Universal (Public Domain Dedication)
 
-2. Internet Archive (Archive.org):
-   [to be added after upload]
+🔗 Permanent Mirrors · 永久镜像
+- GitHub Pages (Master Entry):
+  https://wk-26.github.io/Civilization-Axioms-and-Immune-System-/
+- GitHub Repository:
+  https://github.com/wk-26/Civilization-Axioms-and-Immune-System-
+- Internet Archive:
+  https://archive.org/details/a-new-civilization-for-humanity-cc-0
+- Zenodo (DOI, all versions):
+  https://doi.org/10.5281/zenodo.16980277
 
-3. Zenodo (CERN, EU Open Science):
-   [to be added after upload]
-
----
-
-Reference / 参考:
-https://creativecommons.org/publicdomain/zero/1.0/
+For any existence to endure, it must recognize and embody the first eight axioms.  
+任何存在若要延续，必须承认并吸纳前八大公理。  
+Refusal leads to cancerization and destruction.  
+拒绝承认者，必然走向癌化与毁灭。
+──────────────────────────────
